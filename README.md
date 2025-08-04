@@ -1,3 +1,5 @@
+Its a https://spreecommerce.org/docs/developer/getting-started/quickstart#getting-the-spree-starter-template
+
 # Spree Starter
 
 This is a starter kit for [Spree Commerce](https://spreecommerce.org) - the [open-source eCommerce platform](https://spreecommerce.org) for [Rails](https://spreecommerce.org/category/ruby-on-rails/). 
