@@ -47,3 +47,7 @@
 .env.production
 
 coverage
+.idea/misc.xml
+.idea/modules.xml
+.idea/SpreeShop.iml
+.idea/vcs.xml
