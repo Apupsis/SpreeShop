@@ -148,7 +148,7 @@ GEM
     base64 (0.3.0)
     bcrypt (3.1.20)
     benchmark (0.4.1)
-    bigdecimal (3.2.2)
+    bigdecimal (3.2.3)
     bindex (0.8.1)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
@@ -184,12 +184,12 @@ GEM
       logger (~> 1.5)
     coderay (1.1.3)
     concurrent-ruby (1.3.5)
-    connection_pool (2.5.3)
+    connection_pool (2.5.4)
     console (1.33.0)
       fiber-annotation
       fiber-local (~> 1.1)
       json
-    countries (8.0.3)
+    countries (8.0.4)
       unaccent (~> 0.3)
     crass (1.0.6)
     csv (3.3.5)
@@ -272,7 +272,7 @@ GEM
     frozen_record (0.27.4)
       activemodel
     gem-release (2.2.4)
-    geocoder (1.8.5)
+    geocoder (1.8.6)
       base64 (>= 0.1.0)
       csv (>= 3.0.0)
     github_changelog_generator (1.16.4)
@@ -349,7 +349,7 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json (2.13.2)
+    json (2.15.0)
     jsonapi-rspec (0.0.11)
       rspec-core
       rspec-expectations
@@ -402,11 +402,11 @@ GEM
       actionmailer (>= 5.2)
       activemodel (>= 5.2)
     mapkick-rb (0.2.0)
-    marcel (1.0.4)
+    marcel (1.1.0)
     matrix (0.4.3)
     method_source (1.1.0)
     metrics (0.13.0)
-    mini_magick (5.3.0)
+    mini_magick (5.3.1)
       logger
     mini_mime (1.1.5)
     mini_racer (0.19.0)
@@ -434,7 +434,7 @@ GEM
       uri
     net-http-persistent (4.0.6)
       connection_pool (~> 2.2, >= 2.2.4)
-    net-imap (0.5.9)
+    net-imap (0.5.10)
       date
       net-protocol
     net-pop (0.1.2)
@@ -444,21 +444,21 @@ GEM
     net-smtp (0.5.1)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.18.9-aarch64-linux-gnu)
+    nokogiri (1.18.10-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.9-aarch64-linux-musl)
+    nokogiri (1.18.10-aarch64-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.9-arm-linux-gnu)
+    nokogiri (1.18.10-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.9-arm-linux-musl)
+    nokogiri (1.18.10-arm-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.9-arm64-darwin)
+    nokogiri (1.18.10-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-darwin)
+    nokogiri (1.18.10-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-linux-gnu)
+    nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-linux-musl)
+    nokogiri (1.18.10-x86_64-linux-musl)
       racc (~> 1.4)
     observer (0.1.2)
     octokit (4.25.1)
@@ -487,7 +487,7 @@ GEM
     pg (1.6.1-x86_64-darwin)
     pg (1.6.1-x86_64-linux)
     pg (1.6.1-x86_64-linux-musl)
-    phonelib (0.10.11)
+    phonelib (0.10.12)
     popper_js (1.16.1)
     pp (0.6.2)
       prettyprint
@@ -513,7 +513,7 @@ GEM
     puma (6.6.1)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.2.0)
+    rack (3.2.1)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -582,7 +582,7 @@ GEM
       railties (>= 5.2)
     reverse_markdown (3.0.0)
       nokogiri
-    rexml (3.4.1)
+    rexml (3.4.4)
     rspec-activemodel-mocks (1.2.1)
       activemodel (>= 3.0)
       activesupport (>= 3.0)
@@ -640,7 +640,7 @@ GEM
       ruby-lsp (>= 0.26.0, < 0.27.0)
     ruby-oembed (0.18.1)
     ruby-progressbar (1.13.0)
-    ruby-vips (2.2.4)
+    ruby-vips (2.2.5)
       ffi (~> 1.12)
       logger
     rubyzip (2.4.1)
@@ -725,10 +725,10 @@ GEM
     solargraph-rails (1.2.0)
       activesupport
       solargraph (= 0.56.0)
-    spree (5.1.4)
-      spree_api (= 5.1.4)
-      spree_cli (= 5.1.4)
-      spree_core (= 5.1.4)
+    spree (5.1.6)
+      spree_api (= 5.1.6)
+      spree_cli (= 5.1.6)
+      spree_core (= 5.1.6)
     spree_admin (5.1.4)
       active_link_to
       bootstrap (~> 4.6, >= 4.6.2.1)
@@ -748,14 +748,14 @@ GEM
       stimulus-rails
       tinymce-rails (~> 6.8.5)
       turbo-rails
-    spree_api (5.1.4)
+    spree_api (5.1.6)
       bcrypt (~> 3.1)
       doorkeeper (~> 5.3)
       jsonapi-serializer (~> 2.1)
-      spree_core (= 5.1.4)
-    spree_cli (5.1.4)
+      spree_core (= 5.1.6)
+    spree_cli (5.1.6)
       thor (~> 1.0)
-    spree_core (5.1.4)
+    spree_core (5.1.6)
       active_storage_validations (= 1.3.0)
       activemerchant (~> 1.67)
       acts-as-taggable-on
@@ -883,7 +883,7 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    state_machines (0.100.1)
+    state_machines (0.100.2)
     state_machines-activemodel (0.100.0)
       activemodel (>= 7.2)
       state_machines (>= 0.100.0)
@@ -915,7 +915,7 @@ GEM
     tinymce-rails (6.8.6.1)
       railties (>= 3.1.1)
     traces (0.16.2)
-    tracking_number (2.2.0)
+    tracking_number (2.4.0)
       activesupport (>= 4.2.5)
       json (>= 1.8.3)
     turbo-rails (2.0.16)
@@ -995,7 +995,6 @@ DEPENDENCIES
   rubocop-rails
   ruby-lsp
   ruby-lsp-rails
-  selenium-webdriver (~> 4.10.0)
   sentry-rails
   sentry-ruby
   sentry-sidekiq
